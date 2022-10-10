@@ -389,7 +389,6 @@ vendor/etc/camera/CFR_para_UW_V10.bin
 vendor/etc/camera/CFR_para_W_QM_V07.bin
 vendor/etc/camera/CFR_para_W_V07.bin
 vendor/etc/camera/CFR_para_W_V10.bin
-vendor/etc/camera/eisoverridesettings.txt
 vendor/etc/camera/eyelineblush.cng
 vendor/etc/camera/female_bg.png
 vendor/etc/camera/female_icon.png
