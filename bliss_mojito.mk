@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
 # Inherit some LineageOS stuffs
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_mojito
+PRODUCT_NAME := bliss_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
@@ -29,8 +29,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="mojito-user 12 RKQ1.210614.002 V14.0.8.0.SKGMIXM release-keys"
 
 BUILD_FINGERPRINT :="Redmi/mojito/mojito:12/RKQ1.210614.002/V14.0.8.0.SKGMIXM:user/release-keys"
-
-
-# OFFICIAL SPICEOS
-
-# SPICEOS_BUILDTYPE = OFFICIAL
