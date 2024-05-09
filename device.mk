@@ -88,3 +88,6 @@ $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
+
+# Call the Leica Camera setup
+$(call inherit-product-if-exists, vendor/xiaomi/mojito-leicacamera/mojito-leicacamera-vendor.mk)
