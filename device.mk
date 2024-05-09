@@ -75,10 +75,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Sensor
 TARGET_ENABLE_MULTI_SENSOR := true
 
-# Shims
-PRODUCT_PACKAGES += \
-    libwatermark_shim
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
