@@ -36,6 +36,7 @@ void property_override(char const prop[], char const value[], bool add = true) {
 
 void load_sunny() {
     property_override("bluetooth.device.default_name", "Redmi Note 10");
+    property_override("vendor.usb.product_string", "Redmi Note 10");
     property_override("ro.product.brand", "Redmi");
     property_override("ro.product.device", "sunny");
     property_override("ro.product.manufacturer", "Xiaomi");
