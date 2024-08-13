@@ -71,8 +71,6 @@ void load_sunny() {
 
 void vendor_load_properties() {
     std::string region = GetProperty("ro.boot.hwc", "");
-    if (access("/system/bin/recovery", F_OK) != 0) {
-        load_sunny();
-    }
+    load_sunny();
     load_dalvikvm_props();
 }
