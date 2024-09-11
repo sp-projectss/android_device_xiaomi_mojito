@@ -183,8 +183,6 @@
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_WSA" interface="RX_CDC_DMA_RX_0"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2_WSA" interface="RX_CDC_DMA_RX_0"/>
         <device name="SND_DEVICE_IN_HANDSET_MIC" interface="TX_CDC_DMA_TX_3"/>
-        <device name="SND_DEVICE_IN_MAIN_MIC" interface="TX_CDC_DMA_TX_3"/>
-        <device name="SND_DEVICE_IN_TOP_MIC" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_HANDSET_MIC_EXTERNAL" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_HANDSET_MIC_AEC" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_HANDSET_MIC_NS" interface="TX_CDC_DMA_TX_3"/>
